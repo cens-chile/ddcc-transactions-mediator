@@ -44,7 +44,7 @@ RUN apt-get update && apt-get install -y \
       xdg-utils \
       wget
 
-RUN npm install -g npm
+RUN npm install -g npm@8.19.4
 RUN npm install
 
 COPY . .
